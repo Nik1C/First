@@ -1,46 +1,76 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>First</title>
-</head>
-<body>
-    <table>
-        <tr>
-            <td><img src="Фото.jfif" alt="" width="500"></td>
-            <td><h1>Николай Крылов</h1><h2>Лучший в мире 1С разработчик!</h2></td>
-        </tr>
-    </table>
-    
-    <hr>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <img src="Фото.jfif" alt="" class="avatar" />
+        <h1>Николай Крылов</h1>
+        <h2>Лучший в мире 1С разработчик!</h2>
+      </div>
+      <hr />
 
-    <h3>Что я умею?</h3>
-    <ol>
+      <h3>Что я умею?</h3>
+      <ol>
         <li>Кодить.</li>
         <li>Чилить.</li>
         <li>Попивать кофеёк.</li>
-    </ol>
-    <hr>
+      </ol>
+      <hr />
 
-    <h3>Мои соцсети:</h3>
-    <ol>
-        <li><a href="https://vk.com/nikolaikrylofff" target="_blank">ВК</a></li>
-        <li><a href="https://vk.com/nikolaikrylofff" target="_blank">Телега</a></li>
-    </ol>
-    <hr>
+      <h3>Мои соцсети:</h3>
+      <ol>
+        <li>
+          <a href="https://vk.com/nikolaikrylofff" target="_blank">ВК</a>
+        </li>
+        <li>
+          <a href="https://vk.com/nikolaikrylofff" target="_blank">Телега</a>
+        </li>
+      </ol>
+      <hr />
 
-    <p><a href="Вторая страница.html">Вторая страничка</a></p>
-    <hr>
+      <h1>Опыт работы.</h1>
 
-    <h3>Связаться со мной.</h3>
-    <form>
+      <div>
+        <table>
+            <tr>
+                <th>Компания</th>
+                <th>Должность</th>
+                <th>Период</th>
+            </tr>
+            
+            <tr>
+              <td>ОАО "Ритм" ТПТА</td>
+              <td>Мастре цеха</td>
+              <td>2018 - 2022</td>  
+            </tr>
+
+            <tr>
+                <td>Омнитек</td>
+                <td>Мастре цеха</td>
+                <td>2018 - 2022</td>  
+              </tr>
+  
+        </table>
+      </div>
+
+      <p><a href="Вторая страница.html">Вторая страничка</a></p>
+      <hr />
+
+      <h3>Связаться со мной.</h3>
+      <form class="form">
         <label for="">Ваше имя:</label>
-        <input type="text" placeholder="Введите Ваше имя...">
-        <br>
+        <input type="text" placeholder="Введите Ваше имя..."/>
+        <br />
         <label for="">Ваше e-mail:</label>
-        <input type="text" placeholder="Введите Ваш e-mail...">
-        <br>
-        <input type="submit">
-    </form>
-</body>
+        <input type="text" placeholder="Введите Ваш e-mail..." />
+        <br />
+        <input type="submit" />
+      </form>
+    </div>
+  </body>
 </html>
